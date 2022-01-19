@@ -4,6 +4,9 @@ export default {
     fallback:true
   },
 
+  target: 'static',
+  ssr: false,
+
   head: {
     title: 'movieapp',
     htmlAttrs: {
