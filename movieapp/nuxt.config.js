@@ -30,7 +30,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
-  rules: {'vue/multi-word-component-names': 'off'},
+  rules: { 'vue/multi-word-component-names': 'off' },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -54,5 +54,10 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    command: 'npm run generate',
+    commandOrigin: ui,
+    publish: /opt/build / repo / dist,
+    publishOrigin: ui,
+  },
 }
