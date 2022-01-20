@@ -54,10 +54,5 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    command: npm run generate,
-    commandOrigin: ui,
-    publish: /opt/build / repo / dist,
-    publishOrigin: ui,
-  },
+  build: {},
 }

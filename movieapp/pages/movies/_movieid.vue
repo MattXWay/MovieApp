@@ -36,7 +36,7 @@
                 })
             }}
         </p>
-        <p class="movie-fact"><span>Overview:</span>{{ movie.overview }}</p>
+        <p class="movie-fact"><span>Overview:</span> {{ movie.overview }} </p>
       </div>
     </div>
   </div>
